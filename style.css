@@ -1,0 +1,84 @@
+/* Background like vintage paper */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #e6d3b3;
+  color: #2b1b0f;
+  text-align: center;
+}
+
+/* Top section */
+.hero {
+  padding: 60px 20px 30px;
+}
+
+.logo {
+  width: 280px;
+  max-width: 85%;
+  margin-bottom: 20px;
+}
+
+/* Big bold title */
+h1 {
+  font-size: 2.3rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+/* Book button styled darker */
+.book-btn {
+  display: inline-block;
+  padding: 16px 35px;
+  background-color: #2b1b0f;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-top: 10px;
+  border: 2px solid #2b1b0f;
+  transition: 0.3s;
+}
+
+.book-btn:hover {
+  background-color: transparent;
+  color: #2b1b0f;
+}
+
+/* Section title */
+.section-title {
+  font-size: 2rem;
+  margin: 50px 0 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+/* Pricing cards styled like flyer blocks */
+.pricing-card {
+  background: #f2e4c7;
+  border: 3px solid #2b1b0f;
+  padding: 25px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 6px 6px 0px #2b1b0f;
+}
+
+.pricing-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.pricing-card p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+  padding: 25px;
+  border-top: 2px solid #2b1b0f;
+  font-weight: 500;
+}
